@@ -24,42 +24,59 @@
        <div class="illistration-woman"></div>
 
        <div class="content">
-         <h1 class="title">FAQ</h1>
+         <h1 class="title">FAQ</h1><br><br>
          <ul>
            <li>
-             <div class="content-title"> Title 1</div>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+             <div class="content-title"> Title 1
+              
+              <img onclick="expand()" src="/images/icon-arrow-down.svg" alt="" srcset="">
+             </div>
+            
+             <p id="info" >Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                Repellendus eius deserunt at molestiae accusantium, 
                iure error voluptatibus, incidunt sapiente cumque iste nesciunt 
-               magnam repellat hic eligendi nostrum impedit quisquam aspernatur?</p>
+               magnam repellat hic eligendi nostrum impedit quisquam aspernatur?</p><br><hr>
            </li>
-           <li>
-              <div class="content-title"> Title 1</div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           
+           <li >
+              <div class="content-title"> Title 2
+                <img onclick="expand2()" src="/images/icon-arrow-down.svg" alt="" srcset="">
+              </div>
+              
+              <p id="info2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Repellendus eius deserunt at molestiae accusantium,
                 iure error voluptatibus, incidunt sapiente cumque iste nesciunt
-                magnam repellat hic eligendi nostrum impedit quisquam aspernatur?</p>
+                magnam repellat hic eligendi nostrum impedit quisquam aspernatur?</p><br><hr>
            </li>
-           <li>
-              <div class="content-title"> Title 1</div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           <li >
+              <div class="content-title"> Title 3
+                <img onclick="expand3()" src="/images/icon-arrow-down.svg" alt="" srcset="">
+              </div>
+             
+              <p id="info3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Repellendus eius deserunt at molestiae accusantium,
                 iure error voluptatibus, incidunt sapiente cumque iste nesciunt
-                magnam repellat hic eligendi nostrum impedit quisquam aspernatur?</p>
+                magnam repellat hic eligendi nostrum impedit quisquam aspernatur?</p><br><hr>
            </li>
-           <li>
-              <div class="content-title"> Title 1</div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           <li > 
+              <div class="content-title"> Title 4
+                <img onclick="expand4()" src="/images/icon-arrow-down.svg" alt="" srcset="">
+              </div>
+             
+              <p id="info4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Repellendus eius deserunt at molestiae accusantium,
                 iure error voluptatibus, incidunt sapiente cumque iste nesciunt
-                magnam repellat hic eligendi nostrum impedit quisquam aspernatur?</p>
+                magnam repellat hic eligendi nostrum impedit quisquam aspernatur?</p><br><hr>
            </li>
-           <li>
-              <div class="content-title"> Title 1</div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           <li >
+              <div class="content-title"> Title 5
+                <img  onclick="expand5()" src="/images/icon-arrow-down.svg" alt="" srcset="">
+              </div>
+              
+              <p id="info5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Repellendus eius deserunt at molestiae accusantium,
                 iure error voluptatibus, incidunt sapiente cumque iste nesciunt
-                magnam repellat hic eligendi nostrum impedit quisquam aspernatur?</p>
+                magnam repellat hic eligendi nostrum impedit quisquam aspernatur?</p><br><hr>
            </li>
          </ul>
        </div>
@@ -80,3 +97,61 @@
     
   </body>
 </html>
+
+<script>
+  function expand() {
+    var x = document.getElementById("info");
+    
+    if (x.style.display === "none") {
+      x.style.display = "inline";
+    } else {
+      x.style.display = "none";
+    }
+
+  }
+
+  function expand2() {
+    var x = document.getElementById("info2");
+
+    if (x.style.display === "none") {
+      x.style.display = "inline";
+    } else {
+      x.style.display = "none";
+    }
+
+  }
+
+  function expand3() {
+    var x = document.getElementById("info3");
+
+    if (x.style.display === "none") {
+      x.style.display = "inline";
+    } else {
+      x.style.display = "none";
+    }
+
+  }
+
+  function expand4() {
+    var x = document.getElementById("info4");
+
+    if (x.style.display === "none") {
+      x.style.display = "inline";
+    } else {
+      x.style.display = "none";
+    }
+
+  }
+
+  function expand5() {
+      var x = document.getElementById("info5");
+
+      if (x.style.display === "none") {
+        x.style.display = "inline";
+      } else {
+        x.style.display = "none";
+      }
+
+    }
+
+</script>

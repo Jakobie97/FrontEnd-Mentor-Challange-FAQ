@@ -20,7 +20,23 @@ html {
 div {
   display: block;
 }
+hr {
+  color: hsl(240, 5%, 91%);
+}
+.attribution a {
+  color: orange;
+}
+.content li {
+  margin-bottom: 25px;
+}
+.content ul {
+  list-style-type: none;
+}
 
+.content p {
+  display: none;
+  margin-bottom: 25px;
+}
 .box {
   background-color: white;
   max-width: 500px;
@@ -49,6 +65,8 @@ div {
   text-align: center;
 }
 
-a {
-  color: orange;
+.content-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
