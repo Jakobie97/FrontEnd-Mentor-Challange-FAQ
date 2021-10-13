@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
 }
 body {
   background: linear-gradient(
       to left top,
       hsl(273, 75%, 66%),
-      hsl(240, 73%, 65%)
+      hsl(240, 73%, 53%)
     )
     fixed;
 }
@@ -35,7 +36,7 @@ hr {
 
 .content p {
   display: none;
-  margin-bottom: 25px;
+  padding-top: 15px;
 }
 .box {
   background-color: white;
